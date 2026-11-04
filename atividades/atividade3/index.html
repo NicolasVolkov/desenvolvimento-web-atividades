@@ -1,11 +1,163 @@
 <!DOCTYPE html>
+<!-- Ryan de Melo Pedro -->
+<!-- Nicolas Borges Volcov dos Santos -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BlueFlix - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <div>
+            <h1 class="logo">Blue<span>Flix</span></h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="navegacao.html">Navegação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner" id="inicio">
+            <div class="conteudo-banner">
+                <h2>
+                    Grandes filmes.
+                    <br>
+                    <span>Uma só plataforma.</span>
+                </h2>
+                <p class="descricao-banner">
+                    Descubra filmes, séries e eventos ao vivo para transformar
+                    qualquer momento em uma experiência inesquecível.
+                </p>
+                <div class="botoes">
+                    <a class="botao" href="#destaques">Explorar catálogo</a>
+                    <a class="botao botao-secundario" href="#continuar">Minha lista</a>
+                </div>
+            </div>
+        </section>
+        <section class="secao" id="continuar">
+            <div class="topo-secao">
+                <h2>Continuar assistindo</h2>
+            </div>
+            <div class="lista-cards">
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="imagens/batman-begins.jpg" alt="Batman Begins">
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Batman Begins</h3>
+                        <p>Bruce Wayne enfrenta seus medos e inicia sua jornada como o Cavaleiro das Trevas.</p>
+                        <span class="categoria">Ação - 2005</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="imagens/harry-potter-2.jpg" alt="Harry Potter e a Câmara Secreta">
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Harry Potter e a Câmara Secreta</h3>
+                        <p>Um novo mistério ameaça Hogwarts durante o segundo ano de Harry na escola.</p>
+                        <span class="categoria">Fantasia - 2002</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="imagens/trolls.jpg" alt="Trolls">
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Trolls</h3>
+                        <p>Poppy e Branch embarcam em uma aventura musical cheia de cores e diversão.</p>
+                        <span class="categoria">Animação - 2016</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secao secao-destaques" id="destaques">
+            <div class="topo-secao">
+                <h2>Filmes em destaque</h2>
+            </div>
+            <div class="lista-cards">
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="imagens/planeta-51.jpg" alt="Planeta 51">
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Planeta 51</h3>
+                        <p>Um astronauta chega a um planeta distante e descobre que não está sozinho.</p>
+                        <span class="categoria">Animação - Ficção científica</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="imagens/hotel-transilvania-2.jpg" alt="Hotel Transilvânia 2">
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Hotel Transilvânia 2</h3>
+                        <p>Drácula reúne a família para uma aventura monstruosamente divertida.</p>
+                        <span class="categoria">Animação - Comédia</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="imagens/hereditario.jpg" alt="Hereditário">
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Hereditário</h3>
+                        <p>Uma família começa a descobrir segredos perturbadores após uma perda.</p>
+                        <span class="categoria">Terror - Suspense</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secao secao-eventos" id="eventos">
+            <div class="topo-secao">
+                <h2>Eventos esportivos</h2>
+                <p class="ao-vivo">AO VIVO E EM BREVE</p>
+            </div>
+            <div class="lista-cards">
+                <div class="card">
+                    <div class="imagem-evento">
+                        <img src="imagens/flamengo-x-vasco.png" alt="Flamengo x Vasco">
+                        <span class="etiqueta-evento">EM BREVE</span>
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Flamengo x Vasco</h3>
+                        <p>Uma rivalidade histórica em mais um grande confronto.</p>
+                        <span class="categoria">Futebol - Campeonato Brasileiro</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagem-evento">
+                        <img src="imagens/gremio-x-atletico.png" alt="Grêmio x Atlético">
+                        <span class="etiqueta-evento">EM BREVE</span>
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Grêmio x Atlético</h3>
+                        <p>Prepare-se para acompanhar cada lance desta partida.</p>
+                        <span class="categoria">Futebol - Campeonato Brasileiro</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagem-evento">
+                        <img src="imagens/palmeiras-x-vasco.png" alt="Palmeiras x Vasco">
+                        <span class="etiqueta-evento">EM BREVE</span>
+                    </div>
+                    <div class="informacoes-card">
+                        <h3>Palmeiras x Vasco</h3>
+                        <p>Um encontro de tradição, torcida e muita emoção.</p>
+                        <span class="categoria">Futebol - Campeonato Brasileiro</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h3 class="logo">Blue<span>Flix</span></h3>
+        <p>Desenvolvido por Ryan e Nicolas</p>
+        <p>2026</p>
+    </footer>
 </body>
 </html>
